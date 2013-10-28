@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="struts2" location="170,270" size="770,2100">
+    <action name="login" location="555,2007" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="index.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="login.jsp" />
+      </result>
+    </action>
+    <action name="edit" location="65,2017" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="edit.jsp" />
+      </result>
+    </action>
+    <action name="logout" location="65,1842" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="login.jsp" />
+      </result>
+    </action>
+    <action name="modifyPsw" location="65,1737" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="modifyPsw.jsp" />
+      </result>
+    </action>
+    <action name="modifyEmail" location="65,1632" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="modifyEmail.jsp" />
+      </result>
+    </action>
+    <action name="addUser" location="310,1632" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="addUser.jsp" />
+      </result>
+    </action>
+    <action name="deleteUser" location="310,57" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="deleteUser.jsp" />
+      </result>
+    </action>
+    <action name="addGroup" location="555,57" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="addGroup.jsp" />
+      </result>
+    </action>
+    <action name="deleteGroup" location="555,1562" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="deleteGroup.jsp" />
+      </result>
+    </action>
+  </package>
+  <package name="struts2Post" location="2130,445" size="1400,245">
+    <action name="editPost" location="65,152" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="index.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="addGroupPost" location="65,57" size="150,41">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="addGroup.jsp" />
+      </result>
+    </action>
+    <action name="modifyPswPost" location="310,47" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="addGroup.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="modifyEmailPost" location="555,47" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="modifyEmail.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="deleteUserPost" location="800,47" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="deleteUser.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="deleteGroupPost" location="1045,47" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="deleteGroup.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="addUserPost" location="1185,152" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="addUser.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+  </package>
+  <package name="page" location="1360,1040" size="280,140">
+    <action name="paging" location="65,47" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="index.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+  </package>
+  <package name="displayLeft" location="1885,1565" size="525,140">
+    <action name="displayByGroup" location="65,47" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="index.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="displayByAccount" location="310,47" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="index.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+  </package>
+  <package name="search" location="1535,1215" size="280,140">
+    <action name="searchByCreateTime" location="65,47" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="index.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+  </package>
+  <package name="delLog" location="1710,1390" size="280,140">
+    <action name="delLog" location="65,47" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="index.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+  </package>
+  <package name="modifyLog" location="1185,760" size="280,245">
+    <action name="modifyLog" location="65,47" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="modifyEdit.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+    <action name="modifyEditPost" location="65,152" size="150,62">
+      <result name="success">
+        <resourceEdge source="success" routing="0" target="index.jsp" />
+      </result>
+      <result name="error">
+        <resourceEdge source="error" routing="0" target="error.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="index.jsp" path="/index.jsp" location="1100,1690" size="150,55" />
+  <webResource name="login.jsp" path="/login.jsp" location="995,2075" size="150,55" />
+  <webResource name="edit.jsp" path="/edit.jsp" location="260,2425" size="150,55" />
+  <webResource name="modifyPsw.jsp" path="/modifyPsw.jsp" location="9,1970" size="150,55" />
+  <webResource name="modifyEmail.jsp" path="/modifyEmail.jsp" location="2700,10" size="150,55" />
+  <webResource name="addUser.jsp" path="/addUser.jsp" location="3585,570" size="150,55" />
+  <webResource name="deleteUser.jsp" path="/deleteUser.jsp" location="499,115" size="150,55" />
+  <webResource name="addGroup.jsp" path="/addGroup.jsp" location="2215,290" size="150,55" />
+  <webResource name="deleteGroup.jsp" path="/deleteGroup.jsp" location="3679,1795" size="150,55" />
+  <webResource name="error.jsp" path="/error.jsp" location="2220,885" size="150,55" />
+  <webResource name="modifyEdit.jsp" path="/modifyEdit.jsp" location="1514,780" size="150,55" />
+</Struts2Diagram>
+
